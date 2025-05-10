@@ -33,9 +33,9 @@ Setting up everything correctly is key. If you’re serious about creating a ful
   - **IMPORTANT:** Some rules are critical for maintaining context and should be set as **"Always"** rules in Cursor. This ensures the AI *always* refers to them before generating code. Consider adding rules like the following and marking them as "Always":
     > ```
     > # IMPORTANT:
-    > # Always read memory-bank/@architecture.md before writing any code. Include entire database schema.
+    > # Always read memory-bank/@architecture.md before writing any code. 
     > # Always read memory-bank/@game-design-document.md before writing any code.
-    > # After adding a major feature or completing a milestone, update memory-bank/@architecture.md.
+    > # After adding a major feature or completing a milestone, update memory-bank/@architecture.md. Include entire database schema.
     > ```
   - Example: Ensure other (non-"Always") rules guide the AI towards best practices for your stack (like networking, state management, etc.).
   - *This overall rules setup is mandatory if you want a game that is as optimized as possible, and code as clean as possible.*
